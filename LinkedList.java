@@ -37,11 +37,12 @@ public class LinkedList<T> {
 	
 	//method that creates a Node for the list
 	public void addNode(Node<T> aNode){
+		//checks to see if the node is empty
 		if (isEmpty() ) {
 			head = aNode;
 			tail=head;
 			return;
-		}
+		}//end check
 		
 		tail.setNextNode(aNode);
 		tail=tail.getNextNode();
@@ -50,4 +51,4 @@ public class LinkedList<T> {
 		
 	}//end addNode
 
-}//end class
+}//end LinkedList Class

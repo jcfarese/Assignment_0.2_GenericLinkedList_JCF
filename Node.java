@@ -47,4 +47,4 @@ class Node <T> {
 	}//end getNextNode
 	
 	
-}//end class
+}//end Node class
